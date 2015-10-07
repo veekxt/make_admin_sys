@@ -601,7 +601,7 @@ fprintf(FP,"\
     printf( \"选择功能编号：\" );\n\
 }\n\
 ",myconfig.exit);
-printf("%s",myconfig.exit);
+
 //主函数
 fprintf(FP,"\
 int main(void)\n\
@@ -665,6 +665,7 @@ int main(int argc, char *argv[])
         printf("未使用参数或参数错误，使用当前目录的config.txt\n");
         read_all("config.txt");
         make_code("sysmain.c");
+        puts("任意键退出");
         getchar();
         return 0;
     }
