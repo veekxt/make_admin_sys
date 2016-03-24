@@ -10,20 +10,20 @@ struct form
 
 struct config
 {
-	int form_max;
-	struct form *form_n;
-	int npage;
-	int wei;
-	int k_is_pingjun;
-	int k_is_add;
-	int per_pingjun;
-	int per_add;
-	int is_pingjun[20];
-	int is_add[20];
-	int len_pingjun;
-	int len_add;
-	char s_is_pingjun[20];
-	char s_is_add[20];
+    int form_max;
+    struct form *form_n;
+    int npage;
+    int wei;
+    int k_is_pingjun;
+    int k_is_add;
+    int per_pingjun;
+    int per_add;
+    int is_pingjun[20];
+    int is_add[20];
+    int len_pingjun;
+    int len_add;
+    char s_is_pingjun[20];
+    char s_is_add[20];
     char maintitle[50];
     char add[50];
     char print[50];
