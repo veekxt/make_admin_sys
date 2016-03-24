@@ -2,7 +2,7 @@
 #define CONF_H_INCLUDED
 struct form
 {
-	int len;
+    int len;
     char name_c[50];
     char name_e[50];
     char type;
